@@ -1,4 +1,4 @@
-/* The Tyler Loftus Show — IMDb title page (2024–2026 dark theme) */
+/* The Tyler Lofftus Show — IMDb title page (2024–2026 dark theme) */
 :root {
   --bg: #121212;
   --card: #1f1f1f;
@@ -408,7 +408,7 @@ h1 {
 /* Cast */
 .cast-strip {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 12px;
 }
 .cast-card {
