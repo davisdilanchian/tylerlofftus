@@ -434,6 +434,8 @@ h1 {
   font-weight: 700;
   font-size: 14px;
 }
+.cast-name a { color: inherit; }
+.cast-name a:hover { color: var(--link); }
 .cast-role {
   color: var(--muted);
   font-size: 13px;
@@ -473,6 +475,7 @@ h1 {
 }
 .imdb-list li:first-child::before { top: 0.55em; }
 .imdb-list i { color: #fff; }
+.imdb-list a { color: var(--link); }
 
 .goof-type,
 .dyk-type {
@@ -483,6 +486,44 @@ h1 {
   letter-spacing: 0.4px;
   text-transform: uppercase;
   margin-bottom: 4px;
+}
+
+.more-strip {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 220px));
+  gap: 14px;
+}
+.more-card {
+  background: var(--card-2);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none !important;
+  color: inherit;
+  display: block;
+}
+.more-card:hover .more-title { color: var(--link); }
+.more-poster {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #fff;
+  background: var(--c, #333);
+}
+.more-title {
+  margin: 10px 12px 2px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.more-sub {
+  margin: 0 12px 12px;
+  color: var(--dim);
+  font-size: 13px;
 }
 
 .quote {
