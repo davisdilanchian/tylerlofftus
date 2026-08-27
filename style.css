@@ -420,6 +420,9 @@ h1 {
 }
 .avatar {
   height: 140px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -429,6 +432,7 @@ h1 {
   color: #fff;
   background: var(--c, #333);
 }
+img.avatar { display: block; }
 .cast-name {
   margin-top: 10px;
   font-weight: 700;
